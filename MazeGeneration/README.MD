@@ -12,9 +12,9 @@ This project has two parts:
 
 ## Problems and Potential Future Improvement:
 
-This project was an interesting challenge in that I was not used to Javascript and that there were various variables which I had to learn to consider and tweak - still sadly in the end, not getting it to fully be optimized but still learning alot. The main problem with the algorithm is that the population is becoming too homogenous, meaning that the DNA of any dominate pathseeker is overwhelming the population. 
+This project was an interesting challenge in that I was not used to Javascript and that there were various variables which I had to learn to consider and tweak - still sadly in the end, not getting it to fully be optimized/to solve the maze, but I still learnt alot. The main problem with the algorithm is that the population is **becoming too homogenous**, meaning that the DNA of any dominate pathseeker is overwhelming the population. 
 
-This is probably due to my fitness function, where the way fitness is calculated, due to be on a cartesian plane is abs(x2 - x1) + abs(y2 - y1) + penality; penalties being how many times a pathseeker runs into a wall. 
+This is probably due to my fitness function, where the way fitness is calculated, due to be on a cartesian plane is **abs(x2 - x1) + abs(y2 - y1) + penality**; penalties being how many times a pathseeker runs into a wall. 
 
 This was probably the main source of my problem due to this meaning that the higher the number, the less "fit" it was. But my pool selection was based on a algorithm of a "higher fitness", meaning that I had to invert the fitness with a 1/x. 
 
