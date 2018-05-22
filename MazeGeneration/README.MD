@@ -7,7 +7,7 @@ This project involved using:
 
 ## Background Information:
 This project has two parts:
-1. A random maze generator based on a recursive backtracking algorithm along with Shiffman tutorial on youtube.
+1. A random maze generator based on a depth-first backtracking algorithm.
 2. A self-initiated project to try to explore genetic algorithms further in-depth after gaining experience from making a genetic algorithm on Shiffman tutorial on a continous ecosystem where different member of the population tries to eat "food" or "poison". 
 
 ## Problems and Potential Future Improvement:
