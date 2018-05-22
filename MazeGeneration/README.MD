@@ -22,6 +22,8 @@ This was probably the main source of my problem due to this meaning that the hig
 
 Even breeding didn't introduce that much variation due to the population already being homogenous. In the future, it be interesting to revisit this project more again, to see how to improve it. I might generate more standard mazes for the algorithm to solve so that I can recreate scenarios and so that I wouldn't have to generate a maze everytime randomly. 
 
+However, if the fitness function isn't the problem my guess would be the assignment of the fitness to possibly incorrect and that I would need to explore other methods to assign a fitness score.
+
 ## Summary:
 
 I learnt how to apply and create a genetic algorithm taking from Shiffman Tutorial on a Evolutionary Steering Behavior, and taking the concept of a genetic algorithm and applying it to something else. 
