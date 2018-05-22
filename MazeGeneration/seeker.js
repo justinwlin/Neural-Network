@@ -6,7 +6,7 @@ function seeker(i, j, dna){
     this.i = i;
     this.j = j;
 
-	this.moves = 40;
+	this.moves = 30;
     this.dna = [];	
     this.fitness = 0;
     this.penalty = 0;
@@ -23,7 +23,7 @@ function seeker(i, j, dna){
     }
     else{
         this.dna = dna;
-        if(random(1) < 0.05){ //<-- Mutation Rate
+        if(random(1) < 0.02){ //<-- Mutation Rate
             this.dna[floor(random(this.dna.length - 1))] = directions[floor(random(0, 4))];
         }
     }
@@ -107,14 +107,7 @@ function seeker(i, j, dna){
         else{
             d = (Math.abs(cols - this.j) + Math.abs(rows - this.i)) + this.penalty;
             d = 1/d;
-             
-            if(this.i == 0 && this.j == 0){
-                this.fitness = 1/100;
-            }
-            else{
-                this.fitness = d + 10;
-            }
-
+            this.fitness = d;
         }
 
 

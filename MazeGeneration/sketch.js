@@ -19,11 +19,10 @@ Seeker Variables
 */
 var generations = 0;
 
-var numSeekers = 700;
+var numSeekers = 300;
 seekerMode = false;
 seekers = [];
 finishedSeekers = [];
-
 /*
 ========================
 Initialization Function
@@ -86,12 +85,10 @@ function draw() {
 			sum += finishedSeekers[i].fitness;
 		}
 		for(i = finishedSeekers.length - 1; i >= 0; i--){
-			finishedSeekers[i].fitness / sum;
+			finishedSeekers[i].fitness = finishedSeekers[i].fitness / sum;
 		}
 
-
-		// console.log(finishedSeekers);
-		// throw(finishedSeekers);
+		console.log(finishedSeekers);
 	}
 	else{
 		// if(generations == 100){
@@ -101,15 +98,17 @@ function draw() {
 		for(i = finishedSeekers.length - 1; i >= 0; i--){
 			finishedSeekers[i].highlightSeeker();
 			pickedSeeker= createNewSeekers(finishedSeekers);
+			//console.log(finishedSeekers);
 			pickedSeeker = new seeker(0, 0, pickedSeeker.dna);
-
 			seekers.push(pickedSeeker);
+
+
 		}
 		breed(seekers);
 		finishedSeekers = [];
 		generations += 1;
 
-		console.log(generations);
+		//console.log(generations);
 	}
 }
 
