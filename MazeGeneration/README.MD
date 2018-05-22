@@ -36,12 +36,12 @@ While the code is accurate and working, I need to learn to further refine the fi
 
 ## Resources Referenced:
 
-2D Maze GA Algorithms / Maze Algorithms which I used for Reference/Inspiration: 
+### 2D Maze GA Algorithms / Maze Algorithms which I used for Reference/Inspiration: 
 1. https://en.wikipedia.org/wiki/Maze_solving_algorithm
 2. http://www.tonytruong.net/solving-a-2d-maze-game-using-a-genetic-algorithm-and-a-search-part-2/
 3. http://datagenetics.com/blog/november22015/index.html 
 4. Recursive BackTracker Implementated: https://en.wikipedia.org/wiki/Maze_generation_algorithm
 
-## Daniel Shiffman Tutorial
+### Daniel Shiffman Tutorial
 1. Pool Selection Implementation: https://youtu.be/ETphJASzYes
 2. Daniel Shiffman Tutorial on a Steering Evolution: https://youtu.be/VnFF5V5DS8s
