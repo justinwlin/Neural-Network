@@ -22,6 +22,12 @@ This was probably the main source of my problem due to this meaning that the hig
 
 Even breeding didn't introduce that much variation due to the population already being homogenous. In the future, it be interesting to revisit this project more again, to see how to improve it. I might generate more standard mazes for the algorithm to solve so that I can recreate scenarios and so that I wouldn't have to generate a maze everytime randomly. 
 
+## Summary:
+
+I learnt how to apply and create a genetic algorithm taking from Shiffman Tutorial on a Evolutionary Steering Behavior, and taking the concept of a genetic algorithm and applying it to something else. 
+
+While the code is accurate and working, I need to learn to further refine the fitness function, mutation rate, and other variables. 
+
 ## How to Run if Interested:
 1. Have the ability to deploy a live server
 2. Have Node.js installed
@@ -37,4 +43,4 @@ Even breeding didn't introduce that much variation due to the population already
 
 Pool Selection Implemented: https://youtu.be/ETphJASzYes
 Recursive BackTracker Implementated: https://en.wikipedia.org/wiki/Maze_generation_algorithm
-
+Daniel Shiffman Tutorial on a Steering Evolution for a continous system: https://youtu.be/VnFF5V5DS8s
