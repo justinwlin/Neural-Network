@@ -27,3 +27,14 @@ Even breeding didn't introduce that much variation due to the population already
 2. Have Node.js installed
 3. cd to the folder and run your live server, which should open up in a browser window for you.
 
+
+## Resources Referenced:
+
+2D Maze GA Algorithms / Maze Algorithms which I used for Reference/Inspiration: 
+1. https://en.wikipedia.org/wiki/Maze_solving_algorithm
+2. http://www.tonytruong.net/solving-a-2d-maze-game-using-a-genetic-algorithm-and-a-search-part-2/
+3. http://datagenetics.com/blog/november22015/index.html
+
+Pool Selection Implemented: https://youtu.be/ETphJASzYes
+Recursive BackTracker Implementated: https://en.wikipedia.org/wiki/Maze_generation_algorithm
+
