@@ -9,7 +9,7 @@ In addition 3Blue1Brown has a beautiful series on breaking down neural networks 
 The project consisted of several parts and subcategories. The best way to start would be to first outline the goal:
 1. Build a Perceptron
 
-What a perceptron is is that it takes in inputs, multiply those inputs by randomized weights, and spits back an output. What is important however is how to get this perceptron to "learn" which involves gradient descent. 
+What a perceptron is is that it takes in inputs, multiply those inputs by randomized weights, and spits back an output. What is important however is how to get this perceptron to **"learn"** which involves gradient descent. 
 
 In order to test the perceptron built, randomized dots were created and plotted on a canvas. A line was drawn through the canvas to where the perceptron then had to figure out if the dots are above or lower than the line. 
 
