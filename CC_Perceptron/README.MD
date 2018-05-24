@@ -27,8 +27,12 @@ The learning weight was to prevent the model from heavily overcorrecting. There 
 
 There is an .exe file for Windows 32 and 64 bit. By cloning this reposistory, downloading the .exe file and running it you will see a canvas with bunch of green and red dots pop up. 
 
-By clicking the screen, the model will train itself, and a line on the screen will change to come to a closer approximation of the actual line that it is trying to figure out if dots are above or below. 
+By clicking the screen, the model will train itself, and a line on the screen will change to come to a closer approximation of the actual line that it is trying to figure out if dots are above or below. At every click it will train itself. Once all the dots are green, the simulation is done. 
 
 ## What I learnt from the Project:
 
 I got to apply subjects from my object oriented programming class, graphical processing using Processing, and calculus concepts such as gradient descent and work with the math to build a fundamental building block of neural networks. 
+
+### Improve in the future:
+
+Some things in the future that might be fun challenges and exercises is to create a graphical representation of the backend parts of the perceptron. So drawing out the weights, how it is working with the inputs, and then self-correcting itself. 
