@@ -8,6 +8,7 @@ This is a folder containing my projects from the tutorial series by Shiffman. My
     - Genetic algorithm code executes properly but population became too homogenous. [Read readme file in the project for more information](https://github.com/justinwlin/Neural-Network/blob/master/MazeGeneration/README.MD)
 2. [Perceptron: ](https://github.com/justinwlin/Neural-Network/tree/master/CC_Perceptron) 
     - I built a basic perceptron based on Shiffman Tutorial series on building a perceptron. [Readme file for more information on what I learned](https://github.com/justinwlin/Neural-Network/blob/master/CC_Perceptron/README.MD)
+    - Applying gradient descent to solve a problem that could be classified linearly. 
 
 ### Shiffman Youtube Channel:
 https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
