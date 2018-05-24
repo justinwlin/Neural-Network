@@ -9,13 +9,12 @@ void setup() {
 }
 
 void draw() {
-
   /*
   =============================================
    Drawing Line that we are comparing against
    =============================================
    */
-  background(255);
+  background(235);
   stroke(0);
   Point p1 = new Point(-1, f(-1));
   Point p2 = new Point(1, f(1));
@@ -29,20 +28,15 @@ void draw() {
 
   Point p3 = new Point(-1, brain.guessY(-1));
   Point p4 = new Point(1, brain.guessY(1));
-
   line(p3.pixelX(), p3.pixelY(), p4.pixelX(), p4.pixelY());
-
-
   for (Point pt : points) {
     pt.show(); //Drawing the Points
-
     /*
     ======================
      Logic
      ======================
      */
     float[] inputs = {pt.x, pt.y, pt.bias};
-    brain.train(inputs, pt.label); //Comment this or don't comment this for automatic training
     int guess = brain.guess(inputs);
     
     //Visual Green or Red if Perceptron is Right or Wrong
@@ -55,6 +49,7 @@ void draw() {
     ellipse(pt.pixelX(), pt.pixelY(), 14, 14);
   }
 }
+
  //Allowing Mouse Press to Train if brain.train is commented
 void mousePressed() {
   for (Point pt : points) {
