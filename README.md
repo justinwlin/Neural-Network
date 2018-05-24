@@ -1,6 +1,6 @@
-# p5
+# Neural Network Code
 ## About:
-This is a folder containing my projects from the tutorial series by Shiffman. My goal with the project is go learn more Javascript along with creating and learning deep learning and genetic algorithms. There will be proper readme files for projects that are from me following his tutorials, my modification to the files, or any self-driven projects. 
+This is a folder containing my projects from the tutorial series by Shiffman. My goal with the project is go learn more Javascript/Java along with creating and learning deep learning and genetic algorithms. There will be proper readme files for projects that are from me following his tutorials, my modification to the files, or any self-driven projects. 
 
 ## Additional Information
 ### Projects so Far:
