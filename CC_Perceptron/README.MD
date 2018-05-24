@@ -3,7 +3,7 @@
 ## Links: 
 First I want to give credit to where it is due, this code is based on the series by Daniel Shiffman where he goes over how to create a basic [Perceptron](https://www.youtube.com/watch?v=XJ7HLz9VYz0&list=PLRqwX-V7Uu6Y7MdSCaIfsxc561QI0U0Tb)
 
-In addition 3Blue1Brown has a beautiful series on breaking down neural networks into their mathematical properties and representation to check out and really helped wrap my head more around the concepts of neural networks: [Neural Network Series](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+In addition 3Blue1Brown has a beautiful series on breaking down neural networks into their mathematical properties and really helped wrap my head more around the concepts of neural networks: [Neural Network Series](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 ## About the Project
 The project consisted of several parts and subcategories. The best way to start would be to first outline the goal:
