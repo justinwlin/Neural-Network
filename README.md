@@ -16,11 +16,11 @@ This is a folder containing my projects as I learn about neural networks. In the
 
 ## Resources
 ### [Shiffman Youtube Channel](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw):
-    - Tutorials that cover from beginning to end about the implementation of neural networks using p5 in javascript and processing using Java. 
+   - Tutorials that cover from beginning to end about the implementation of neural networks using p5 in javascript and processing using Java. 
 
 ### [3Blue1Brown Youtube Channel](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi):
 
-    - A youtube series that covers the mathematical principles behind neural network and was a great resources in order to wrap my head around the mathematical aspects of programming a neural network as I became stuck on topics like backpropogation.
+   - A youtube series that covers the mathematical principles behind neural network and was a great resources in order to wrap my head around the mathematical aspects of programming a neural network as I became stuck on topics like backpropogation.
 
 
 ### To-Self Notes (How to Generate a new Project):
