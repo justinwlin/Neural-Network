@@ -11,8 +11,8 @@ This is a folder containing my projects as I learn about neural networks. In the
     - I built a basic perceptron to learn linear regression. [Readme file for more information on what I learned](https://github.com/justinwlin/Neural-Network/blob/master/CC_Perceptron/README.MD)
 
 3. [Neural Network Using Python and Numpy](https://github.com/justinwlin/Neural-Network/tree/master/Neural_Network_Numpy)
-    - In order to prove I had an proficient understanding of neural network, I worked by myself to reimplement a neural network with 1 input layer, 2 hidden layer, and 1 output layer using Python and the Numpy math library for matrix calculations.
-    - Apply concepts from gradient descent, feed-forward and backpropogation, and matrix math to build a supervised learning neural network model.
+    - In order to prove I had an proficient understanding of neural networks, I worked by myself to implement from scratch a neural network with 1 input layer, 2 hidden layer, and 1 output layer using Python and the Numpy math library for matrix calculations.
+    - Applied concepts from gradient descent, feed-forward and backpropogation, and matrix math to build a supervised learning neural network model.
 
 ## Resources
 ### [Shiffman Youtube Channel](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw):
