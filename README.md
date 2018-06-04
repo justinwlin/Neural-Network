@@ -1,6 +1,6 @@
 # Neural Network Code
 ## About:
-This is a folder containing my projects from the tutorial series by Shiffman. My goal with the project is go learn more Javascript/Java along with creating and learning deep learning and genetic algorithms. There will be proper readme files for projects that are from me following his tutorials, my modification to the files, or any self-driven projects. 
+This is a folder containing my projects as I learn about neural networks. In the resources I include links to the main resources I used as I learned about neural networks. 
 
 ## Additional Information
 ### Projects so Far:
@@ -8,11 +8,20 @@ This is a folder containing my projects from the tutorial series by Shiffman. My
     - Genetic algorithm code executes properly but population became too homogenous. 
     - Hope to revisit to improve the genetic algorithm to get it working properly: [Read readme file for more information](https://github.com/justinwlin/Neural-Network/blob/master/MazeGeneration/README.MD)
 2. [Perceptron: ](https://github.com/justinwlin/Neural-Network/tree/master/CC_Perceptron) 
-    - I built a basic perceptron. [Readme file for more information on what I learned](https://github.com/justinwlin/Neural-Network/blob/master/CC_Perceptron/README.MD)
-    - Applied concepts such as linear descent, object oriented programming, and graphical processing in Java to show how a perceptron learned and modified its weights in order to see if certain data points were above or below a line.
-    
-### Shiffman Youtube Channel:
-https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
+    - I built a basic perceptron to learn linear regression. [Readme file for more information on what I learned](https://github.com/justinwlin/Neural-Network/blob/master/CC_Perceptron/README.MD)
+
+3. [Neural Network Using Python and Numpy](https://github.com/justinwlin/Neural-Network/tree/master/Neural_Network_Numpy)
+    - In order to prove I had an proficient understanding of neural network, I worked by myself to reimplement a neural network with 1 input layer, 2 hidden layer, and 1 output layer using Python and the Numpy math library for matrix calculations.
+    - Apply concepts from gradient descent, feed-forward and backpropogation, and matrix math to build a supervised learning neural network model.
+
+## Resources
+### [Shiffman Youtube Channel](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw):
+    - Tutorials that cover from beginning to end about the implementation of neural networks using p5 in javascript and processing using Java. 
+
+### [3Blue1Brown Youtube Channel](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi):
+
+    - A youtube series that covers the mathematical principles behind neural network and was a great resources in order to wrap my head around the mathematical aspects of programming a neural network as I became stuck on topics like backpropogation.
+
 
 ### To-Self Notes (How to Generate a new Project):
 p5 generate -b NameOfProject
