@@ -1,4 +1,4 @@
-# Supervised Deep Neural Network Model
+# Supervised Deep Neural Network Model (Written using purely Python and Numpy)
 
 ## About:
 This is a deep neural network that I programmed using Python and the Numpy math library in order to learn how to build a neural network for supervise learning. 
