@@ -13,4 +13,4 @@ What I hope to do in the future to improve on Daniel Shiffman code is that inste
 
 My hope would be that this would come closer to a solution to play better. 
 
-I also might consider having different "species" of birds, with different amounts of layers, inputs, outputs, and try to see which one works better in the future. 
+I also might consider having different "species" of birds, with different amounts of layers, inputs, outputs, and try to see which one works better in the future and which one improves at a faster rate.
