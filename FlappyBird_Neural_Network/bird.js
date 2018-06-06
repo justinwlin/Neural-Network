@@ -1,4 +1,4 @@
-//Mutate Function to pass through to .mutate()
+//Mutate Function to pass through to .mutate() in bird
 function mutate(x) {
   if (random(1) < 0.1) {
     let offset = randomGaussian() * 0.5;
@@ -72,7 +72,7 @@ class Bird {
   }
 
   bottomTop() {
-    // Bird dies when hits bottom?
+    //Bird dies if touch top or bottom of the screen
     return (this.y > height || this.y < 0);
   }
 
