@@ -1,7 +1,7 @@
 # Flappy Bird Neural Network:
 
 ## DISCLAIMER: 
-This is a Github project following a tutorial series by Daniel Shiffman ( [link](https://www.youtube.com/watch?v=c6y21FkaUqw) ) on how to apply a neural network + genetic algorithm to play flappy bird. 
+This is a Github project following a tutorial series by Daniel Shiffman ( [link](https://www.youtube.com/watch?v=c6y21FkaUqw) ) on how to apply a neural network + genetic algorithm to play flappy bird. I did not write this code from scratch, rather follow along and learn to apply concepts that I've been working on with neural networks and genetic algorithm. 
 
 Credits to him for the files: nn.js, matrix.js, and the flappy bird code. 
 
@@ -14,3 +14,7 @@ What I hope to do in the future to improve on Daniel Shiffman code is that inste
 My hope would be that this would come closer to a solution to play better. 
 
 I also might consider having different "species" of birds, with different amounts of layers, inputs, outputs, and try to see which one works better in the future and which one improves at a faster rate.
+
+- [ ] Averaging brains of two successful birds to create an offprint
+- [ ] Creating species of birds with different amount of hidden layers
+- [ ] Creating a system to graph the species success rate and offspring percentage in a population if implemented
