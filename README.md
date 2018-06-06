@@ -13,6 +13,10 @@ This is a folder containing my projects as I learn about neural networks. In the
 3. [Neural Network Using Python and Numpy](https://github.com/justinwlin/Neural-Network/tree/master/Neural_Network_Numpy)
     - In order to prove I had an proficient understanding of neural networks, I worked by myself to implement from scratch a neural network with 1 input layer, 2 hidden layer, and 1 output layer using Python and the Numpy math library for matrix calculations.
     - Applied concepts from gradient descent, feed-forward and backpropogation, and matrix math to build a supervised learning neural network model.
+    
+4. [Flappy Bird NeuroEvolution](https://github.com/justinwlin/Neural-Network/tree/master/FlappyBird_Neural_Network)
+    - Code that I wrote following [Daniel Shiffman Youtube Tutorial Series](https://youtu.be/c6y21FkaUqw) to use neural network and genetic algorithm to evolve a "bird" to play flappy bird.
+    - Got to learn how to apply genetic algorithms and neural networks together. 
 
 ## Resources
 ### [Shiffman Youtube Channel](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw):
