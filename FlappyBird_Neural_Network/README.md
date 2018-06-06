@@ -1,7 +1,16 @@
-# Flappy Bird Clone
+# Flappy Bird Neural Network:
 
-This repository is starting with the code from [Coding Challenge #31 on YouTube](https://www.youtube.com/watch?v=cXgA1d_E-jY). I am accepting pull requests for bug fixes, minor improvements to gameplay, and visual design. I do not want to make the code more complex as the goal is to use this as a basis for a "neuro-evolution" tutorial with the "toy" [neural network library](https://github.com/CodingTrain/Toy-Neural-Network-JS/).
+## DISCLAIMER: 
+This is a Github project following a tutorial series by Daniel Shiffman ( [link](https://www.youtube.com/watch?v=c6y21FkaUqw) ) on how to apply a neural network + genetic algorithm to play flappy bird. 
 
-Coding Train themed graphics are welcome! (But keep it simple!)
+Credits to him for the files: nn.js, matrix.js, and the flappy bird code. 
 
-* [Play the game!](https://codingtrain.github.io/Flappy-Bird-Clone/)
+## About:
+This was a learning experience to learn how to further apply neural networks + genetic algorithm together. 
+
+## What I hope to do for future improvements:
+What I hope to do in the future to improve on Daniel Shiffman code is that instead of just "copying" over the most successful birds over, and having that be the way the "genes" or the "brains" of the birds are based along, is to modify the neural network library to allow two neural networks to be passed in and to average the values. 
+
+My hope would be that this would come closer to a solution to play better. 
+
+I also might consider having different "species" of birds, with different amounts of layers, inputs, outputs, and try to see which one works better in the future. 
