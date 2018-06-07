@@ -59,16 +59,24 @@ class NeuralNetwork:
 
 
         #Calculating the Cost Function
-        # (y - target)
-        output_error = np.subtract(targetArrayNmpy, self.output)
+        # 0.5 * (y - target) ^ 2
+        output_error = np.subtract(targetArrayNmpy, self.output) # y-hat - y
         hidden2_error = np.dot(np.transpose(self.output_h2), output_error)
         hidden1_error = np.dot(np.transpose(self.h2_h1), hidden2_error)
 
         #Gradient from Output to Hidden Layer 2 Calculations
-        gradient_O_H = self.dsigmoid_Vectorize(self.output)
-        gradient_O_H = np.multiply(gradient_O_H, output_error)
+        gradient_O_H = self.dsigmoid_Vectorize(self.output) #AL/ZL = dSigmoid(zL)
+        gradient_O_H = np.multiply(gradient_O_H, output_error) 
         gradient_O_H = np.multiply(gradient_O_H, self.learning_rate)
-        weight_O_H_Delta = np.dot(gradient_O_H, np.transpose(self.hiddenTwo))
+        weight_O_H_Delta = np.dot(gradient_O_H, np.transpose(self.hiddenTwo)) 
+
+        #dSigmoid(zL) * output_error * alpha * learning rate * Hidden Layer 2
+        # Weight_O_H_Delta = output_error * dsigmoid * Hidden Layer 2 * alpha
+        # Cost in Respect to Weight H2_Output = output_error * dsigmoid * Hidden Layer 2 * Alpha
+
+        # gradient_O_H = output_error * dsigmoid * 1 * alpha
+        #Cost in respect to bias = output_error * dsigmoid * 1 * alpha
+
 
         # #Adjustments from Output to Hidden Layer 2:
         self.output_h2 = np.add(self.output_h2, weight_O_H_Delta)
@@ -103,8 +111,8 @@ class NeuralNetwork:
 def main():
     #Ex. Input
     #Hidden Layer Amt will always be 2
-    nn = NeuralNetwork(2, 10, 1) #Input, Number Nodes Per Hidden Layer, Output Nodes
-    inputAndTarget = [([0,0], [.5]), ([1, 1], [.5]), ([1, 0], [.5]), ([0, 1], [.5])]
+    nn = NeuralNetwork(2, 5, 1) #Input, Number Nodes Per Hidden Layer, Output Nodes
+    inputAndTarget = [([0,0], [0]), ([1, 1], [0]), ([1, 0], [1]), ([0, 1], [1])]
     for i in range(10000):
         randomGen = random.randint(0,3)
         nn.train(inputAndTarget[randomGen][0], [0.5])#inputAndTarget[randomGen][1])
