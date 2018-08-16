@@ -10,7 +10,7 @@ This is a folder containing my projects as I learn about neural networks. In the
 2. [Perceptron: ](https://github.com/justinwlin/Neural-Network/tree/master/CC_Perceptron) 
     - I built a basic perceptron to learn linear regression. [Readme file for more information on what I learned](https://github.com/justinwlin/Neural-Network/blob/master/CC_Perceptron/README.MD)
 
-3. [Neural Network Using Python and Numpy](https://github.com/justinwlin/Neural-Network/tree/master/Neural_Network_Numpy)
+3. [Neural Network Using Python and NumPy](https://github.com/justinwlin/Neural-Network/tree/master/Neural_Network_Numpy)
     - In order to prove I had an proficient understanding of neural networks, I worked by myself to implement from scratch a neural network with 1 input layer, 2 hidden layer, and 1 output layer using Python and the Numpy math library for matrix calculations.
     - Applied concepts such as gradient descent, feed-forward and backpropogation to build a supervised learning neural network model.
     
