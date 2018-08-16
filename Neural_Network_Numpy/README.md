@@ -1,7 +1,7 @@
-# Supervised Deep Neural Network Model (Written using Python and Numpy)
+# Supervised Deep Neural Network Model (Written using Python and NumPy)
 
 ## About:
-This is a deep neural network that I programmed using Python and the Numpy math library in order to learn how to build a neural network for supervise learning. 
+This is a deep neural network that I programmed using Python and the NumPy math library in order to learn how to build a neural network for supervise learning. 
 
 In order to test the model, I am training the neural network to learn how to categorize XOR inputs. 
 
