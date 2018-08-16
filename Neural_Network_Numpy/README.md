@@ -21,4 +21,4 @@ The model can be infinitely expanded to whatever amount of inputs and outputs ar
 Meaning that my neural network is able to run and learn datasets like the [Mnist dataset](http://yann.lecun.com/exdb/mnist/) , by expanding the amount of inputs to 28x28 (784), and allowing 9 outputs (1 - 9).
 
 ## How to Run:
-Download the file, either copying/pasting or downloading the repository, and run it using Python 3.0 or greater. 
+Download the file, either copying/pasting or downloading the repository, and run it using Python 3.0 or greater. Will also need Numpy installed on your computer.
